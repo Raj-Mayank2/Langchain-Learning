@@ -1,0 +1,10 @@
+🔑 Key Takeaways
+Prompts are reusable, parameterized templates — not hardcoded strings.
+
+ChatPromptTemplate > PromptTemplate for chat models (it produces typed messages).
+
+Parsers turn messy text into clean Python. Use Pydantic for anything production-grade.
+
+The pipe | is LCEL — the composition backbone of modern LangChain.
+
+prompt | llm | parser is the fundamental unit you'll reuse everywhere.

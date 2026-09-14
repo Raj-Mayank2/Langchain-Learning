@@ -1,0 +1,10 @@
+🔑 Key Takeaways from Phase 1
+LangChain = provider-agnostic LLM interface. Swap Groq ↔ OpenAI ↔ Ollama with one line.
+
+Messages are typed and role-based. System sets behavior; Human/AI form the dialogue.
+
+Three call styles: invoke (block), stream (tokens), batch (parallel).
+
+No built-in memory. You pass the entire history every call.
+
+Token usage = cost driver. Check usage_metadata to estimate.
